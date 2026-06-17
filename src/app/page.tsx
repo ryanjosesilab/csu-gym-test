@@ -333,7 +333,7 @@ export default function Home() {
                         <label className="form-label">Message :</label>
                         <textarea
                            className="pesan form-control"
-                           rows="3"
+                           rows={3}
                            placeholder="Enter your message"
                         ></textarea>
                         <span className="focus-input100"></span>
